@@ -1,4 +1,4 @@
 git add .
-git commit -m "mobile: pause in 1:45:53"
+git commit -m "seasson 03 -> done"
 git push
 git status
