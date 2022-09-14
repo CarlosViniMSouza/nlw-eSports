@@ -95,3 +95,5 @@ app.get('/ads/:id/discord', async (request, response) => {
     discord: ad.discord,
   })
 });
+
+app.listen(3030);
