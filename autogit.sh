@@ -1,4 +1,4 @@
 git add .
-git commit -m "web & server: done | Next stage: mobile"
+git commit -m "mobile: done | Next Step: wait stage 05 unlock"
 git push
 git status
