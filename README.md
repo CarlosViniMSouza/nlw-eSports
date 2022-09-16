@@ -43,4 +43,9 @@ Use Case:
 
 ## mobile application (version mobile of our Project)
 
-Maked by _@CarlosViniMSouza_
+Tricks interesting (by Rodrigo):
+
+1. [Clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/)
+
+<br>
+    Maked by _@CarlosViniMSouza_
