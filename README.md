@@ -47,5 +47,9 @@ Tricks interesting (by Rodrigo):
 
 1. [Clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/)
 
+2. [Notifications](https://docs.expo.dev/versions/latest/sdk/notifications/)
+
+<h4>NLW Status: Concluded</h4>
+
 <br>
-    Maked by _@CarlosViniMSouza_
+    Maked with so ❤️ by _@CarlosViniMSouza_
