@@ -1,4 +1,4 @@
 git add .
-git commit -m "mobile: concluded | Last commit this project! | Thanks for NLW eSports folks!!"
+git commit -m "creating server in Python | database in construction..."
 git push
 git status
