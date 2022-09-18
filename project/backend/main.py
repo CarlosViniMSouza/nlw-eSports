@@ -1,7 +1,4 @@
-import os
-
-
-import os
+import os, json
 from flask import Flask
 from dotenv import load_dotenv
 
@@ -17,6 +14,18 @@ env = os.getenv("FLASK_ENV")
 @app.route("/")
 def root():
     return "<p> Server Flask operating </p>"
+
+@app.route("/games")
+def getGames():
+    games = {
+      "_count": {
+        "select": {
+          "ads": True,
+        }
+      }
+    }
+
+    return json(games)
 
 
 if __name__ == "__main__":
