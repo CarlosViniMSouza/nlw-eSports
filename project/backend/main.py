@@ -28,5 +28,25 @@ def getGames():
     return json(games)
 
 
+@app.post("/games/{id}/ads")
+def postGamesByAds(request):
+  gameId = request.params.id;
+  body = request.body;
+
+  ad = ad.create(
+    data = {
+      # gameId,
+      "name": body.name,
+      "yearsPlaying": body.yearsPlaying,
+      "discord": body.discord,
+      "weekDays": body.weekDays.join(','),
+      # "hourStart": convertHourStringToMinutes(body.hourStart),
+      # "hourEnd": convertHourStringToMinutes(body.hourEnd),
+      "useVoiceChannel": body.useVoiceChannel,
+    })
+
+  return json(ad)
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5555, debug=True)
